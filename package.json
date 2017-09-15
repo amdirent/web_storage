@@ -1,0 +1,15 @@
+{
+  "name": "web_storage",
+  "version": "0.0.1",
+  "description": "A basic implementation of the browser Storage API",
+  "keywords": ["localStorage", "sessionStorage", "web storage"],
+  "main": "index.js",
+  "homepage": "https://github.com/amdirent/web_storage",
+  "bugs": "https://github.com/amdirent/web_storage/issues",
+  "repository": {
+    "url": "https://github.com/amdirent/web_storage",
+    "type": "git"
+  }
+  "author": "Christopher Rankin <crankin@amdirent.com>",
+  "license": "MIT"
+}
