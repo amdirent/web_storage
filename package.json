@@ -1,6 +1,6 @@
 {
   "name": "web_storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A basic implementation of the browser Storage API",
   "keywords": [
     "localStorage",
