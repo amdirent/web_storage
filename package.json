@@ -1,9 +1,13 @@
 {
   "name": "web_storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic implementation of the browser Storage API",
-  "keywords": ["localStorage", "sessionStorage", "web storage"],
-  "main": "index.js",
+  "keywords": [
+    "localStorage",
+    "sessionStorage",
+    "web storage"
+  ],
+  "main": "src/storage.js",
   "homepage": "https://github.com/amdirent/web_storage",
   "bugs": "https://github.com/amdirent/web_storage/issues",
   "repository": {
@@ -11,5 +15,19 @@
     "type": "git"
   },
   "author": "Christopher Rankin <crankin@amdirent.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  }
 }
