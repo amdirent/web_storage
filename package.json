@@ -9,7 +9,7 @@
   "repository": {
     "url": "https://github.com/amdirent/web_storage",
     "type": "git"
-  }
+  },
   "author": "Christopher Rankin <crankin@amdirent.com>",
   "license": "MIT"
 }
